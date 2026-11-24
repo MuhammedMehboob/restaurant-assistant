@@ -1,0 +1,36 @@
+dish_id,name,category,cuisine,price,is_vegetarian,is_vegan,spice_level,calories,contains_nuts,contains_gluten,contains_dairy,description
+1,Vegetable Samosa (2 pcs),starter,Indian,4.50,1,1,1,320,0,1,0,Crispy pastry filled with spiced potato and peas
+2,Chicken Tikka,starter,Indian,6.95,0,0,2,280,0,0,1,Chicken pieces marinated in yoghurt and spices and cooked in the tandoor
+3,Paneer Tikka,starter,Indian,6.50,1,0,2,310,0,0,1,Cottage cheese cubes grilled with peppers and onions
+4,Onion Bhaji,starter,Indian,4.25,1,1,1,290,0,0,0,Fried onion fritters made with gram flour
+5,Garlic Prawns,starter,Mediterranean,7.95,0,0,1,240,0,0,1,King prawns cooked in garlic butter with parsley
+6,Hummus and Pitta,starter,Mediterranean,5.50,1,1,0,410,0,1,0,Chickpea and tahini dip served with warm pitta bread
+7,Crispy Calamari,starter,Mediterranean,7.25,0,0,0,380,0,1,0,Lightly battered squid rings with lemon mayonnaise
+8,Butter Chicken,main,Indian,12.95,0,0,1,650,1,0,1,Tandoori chicken in a creamy tomato and cashew sauce
+9,Lamb Rogan Josh,main,Indian,14.50,0,0,2,610,0,0,1,Slow-cooked lamb in a rich Kashmiri chilli sauce
+10,Chicken Vindaloo,main,Indian,12.50,0,0,3,580,0,0,0,Very hot Goan curry with potatoes and vinegar
+11,Chana Masala,main,Indian,10.50,1,1,2,480,0,0,0,Chickpeas cooked with onion tomato and spices
+12,Palak Paneer,main,Indian,11.50,1,0,1,520,0,0,1,Cottage cheese in a smooth spinach sauce
+13,Vegetable Biryani,main,Indian,11.95,1,0,2,690,1,0,1,Basmati rice layered with vegetables saffron and fried onions
+14,Chicken Biryani,main,Indian,13.50,0,0,2,750,1,0,1,Basmati rice cooked with spiced chicken and saffron
+15,Dal Tadka,main,Indian,9.50,1,1,1,420,0,0,0,Yellow lentils tempered with garlic cumin and chilli
+16,Grilled Sea Bass,main,Mediterranean,16.95,0,0,0,520,0,0,1,Sea bass fillet with lemon herb butter and roasted vegetables
+17,Chicken Souvlaki,main,Mediterranean,13.95,0,0,0,640,0,1,1,Grilled chicken skewers with pitta tzatziki and salad
+18,Falafel Wrap,main,Mediterranean,9.95,1,1,1,560,1,1,0,Falafel with salad and tahini sauce in a flatbread
+19,Mushroom Risotto,main,Mediterranean,12.50,1,0,0,610,0,0,1,Creamy arborio rice with wild mushrooms and parmesan
+20,Lamb Moussaka,main,Mediterranean,14.95,0,0,0,720,0,1,1,Layers of aubergine minced lamb and bechamel sauce
+21,Plain Naan,side,Indian,2.95,1,0,0,260,0,1,1,Soft tandoor-baked flatbread
+22,Garlic Naan,side,Indian,3.50,1,0,0,290,0,1,1,Naan topped with garlic and coriander
+23,Pilau Rice,side,Indian,3.25,1,1,0,310,0,0,0,Fragrant basmati rice with whole spices
+24,Greek Salad,side,Mediterranean,5.95,1,0,0,220,0,0,1,Tomato cucumber olives red onion and feta
+25,Chips,side,British,3.25,1,1,0,370,0,0,0,Thick-cut fries cooked in vegetable oil
+26,Gulab Jamun,dessert,Indian,4.95,1,0,0,380,0,1,1,Warm milk dumplings in rose and cardamom syrup
+27,Mango Kulfi,dessert,Indian,4.50,1,0,0,260,1,0,1,Traditional Indian ice cream with mango and pistachio
+28,Baklava,dessert,Mediterranean,5.25,1,0,0,430,1,1,1,Layers of filo pastry with walnuts and honey syrup
+29,Chocolate Brownie,dessert,British,5.50,1,0,0,460,1,1,1,Warm brownie served with vanilla ice cream
+30,Fruit Sorbet,dessert,British,4.25,1,1,0,150,0,0,0,Refreshing sorbet of the day
+31,Mango Lassi,drink,Indian,3.95,1,0,0,210,0,0,1,Yoghurt drink blended with mango
+32,Masala Chai,drink,Indian,2.95,1,0,0,120,0,0,1,Spiced tea brewed with milk
+33,Fresh Lime Soda,drink,Indian,2.95,1,1,0,90,0,0,0,Sweet or salted lime soda
+34,Soft Drink,drink,British,2.50,1,1,0,140,0,0,0,Coca-Cola Diet Coke Sprite or Fanta
+35,Sparkling Water,drink,British,2.25,1,1,0,0,0,0,0,500ml bottle
