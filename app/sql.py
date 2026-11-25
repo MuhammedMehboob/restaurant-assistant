@@ -110,6 +110,7 @@ def menu_chain(question):
     )
     return completion.choices[0].message.content    
 
+if __name__ == "__main__":
+    for q in ["vegan mains under 11 pounds", "anything with spinach?", "vegan dishes with lamb", "what time do you open?"]:
+        print(f"\nQ: {q}\nA: {menu_chain(q)}")
 
-for q in ["vegan mains under 11 pounds", "anything with spinach?", "vegan dishes with lamb", "what time do you open?"]:
-    print(f"\nQ: {q}\nA: {menu_chain(q)}")
