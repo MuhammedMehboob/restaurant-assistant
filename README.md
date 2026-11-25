@@ -17,6 +17,10 @@ A **semantic router** sends each question to the right pipeline using embedding 
 
 ## How it works
 
+<p align="center">
+  <img src="architecture.png" alt="Architecture: Streamlit chat, semantic router, and the policy (RAG), menu (SQL) and small talk paths" width="900">
+</p>
+
 ```
 Customer question
       │
