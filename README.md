@@ -7,7 +7,9 @@ A chatbot for a restaurant that answers two kinds of customer questions:
 
 A **semantic router** sends each question to the right pipeline using embedding similarity, and greetings go to a separate small-talk handler.
 
-**Live demo:** [Open the app on Streamlit Cloud](https://saffron-olive-assistant.streamlit.app)
+### 🚀 **[Live Demo: Try the app here](https://saffron-olive-assistant.streamlit.app)**
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://saffron-olive-assistant.streamlit.app)
 
 <p align="center">
   <img src="screenshot.png" alt="Saffron & Olive Assistant answering small talk, a policy question and a menu question" width="480">
