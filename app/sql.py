@@ -89,7 +89,7 @@ def menu_chain(question):
     sql = generate_sql(question)
 
     if sql is None:
-        return "Sorry, I can only help with questions about our menu."
+        return "Sorry, I can only help with questions about Saffron & Olive: our menu, opening hours, bookings, delivery, allergens and offers."
     
     sql_answer = run_query(sql)
     if sql_answer is None:

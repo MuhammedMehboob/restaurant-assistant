@@ -33,9 +33,6 @@ for doc in docs:
     for piece in pieces:
         chunks.append({"text":piece,"source":doc["source"]})
 
-print(len(chunks), "chunks")
-print(chunks[0])
-
 chroma_client = chromadb.PersistentClient(path=str(BASE_FILE / "chroma_db"))
 collection = chroma_client.get_or_create_collection(name="policies", embedding_function=ef)
 
@@ -80,16 +77,18 @@ def policy_chain(question):
     ) 
     answer = completion.choices[0].message.content
 
-    return answer,list(dict.fromkeys(sources))
+    return answer, list(dict.fromkeys(sources))
 
-
-tests = [
+if __name__ == "__main__":
+    tests = [
     "Is your chicken halal?",
     "What time do you close on Saturday?",
     "Can I cancel my delivery order?",
     "Do students get a discount on Friday?",
-    "What is the capital of France?",
-]
-for q in tests:
-    answer, sources = policy_chain(q)
-    print(f"\nQ: {q}\nA: {answer}\nSources: {sources}")
+    "What is the capital of France?",]
+
+    for q in tests:
+        answer, sources = policy_chain(q)
+        print(f"\nQ: {q}\nA: {answer}\nSources: {sources}")
+
+
